@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: servers
   gather_facts: no
   connection: local
 
