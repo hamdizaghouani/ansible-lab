@@ -1,8 +1,9 @@
 ---
-- hosts: all
+- hosts: localhost
   gather_facts: no
+  connection: local
 
   tasks:
-    - name: print message
+    - name: show message
       debug:
-        msg: "Hello from AWX and Ansible"
+        msg: "AWX fonctionne"
