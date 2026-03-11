@@ -1,0 +1,8 @@
+---
+- hosts: all
+  gather_facts: no
+
+  tasks:
+    - name: print message
+      debug:
+        msg: "Hello from AWX and Ansible"
